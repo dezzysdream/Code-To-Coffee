@@ -37,7 +37,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-[img]https://i.imgur.com/8DVfXqr.gif[/img]
+https://i.imgur.com/8DVfXqr.gif
 
 GIF created with **Screen To Gif**
 
@@ -48,7 +48,7 @@ GIF created with **Screen To Gif**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+This app was super fun to make. I myself was hammering away and going over each lecture slide to figure out how I would be able to get the 'Calculate' button to work. It took me many coffee breaks and some awesome help from TF's to make it click! 
 
 ## License
 
