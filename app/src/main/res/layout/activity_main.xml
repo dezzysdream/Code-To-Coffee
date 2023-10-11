@@ -33,7 +33,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="198dp"
+        android:fontFamily="sans-serif-black"
         android:text="Break Time (in minutes):"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,22 +45,31 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="127dp"
+        android:fontFamily="sans-serif-black"
         android:text="Cups of Coffee"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username_text_input_layout" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/calcButton"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
         android:layout_marginStart="144dp"
         android:layout_marginTop="23dp"
+        android:backgroundTint="#009688"
+        android:onClick="one"
         android:text="Calculate"
+        android:textColor="#FAF2F5F6"
+        app:iconTint="#2196F3"
+        app:iconTintMode="add"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input.addTextChangedListener" />
+        app:layout_constraintTop_toBottomOf="@+id/userInput.addTextChangedListener"
+        app:rippleColor="#03A9F4"
+        app:strokeColor="#03A9F4" />
 
     <EditText
-        android:id="@+id/input.addTextChangedListener"
+        android:id="@+id/userInput.addTextChangedListener"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginStart="4dp"
@@ -72,15 +83,14 @@
     </EditText>
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="165dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="123dp"
-        android:layout_marginTop="116dp"
-        android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:id="@+id/resultTextView"
+        android:layout_width="182dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="88dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/calcButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
